@@ -1,8 +1,10 @@
+import Nav from './Components/Nav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
     <div className="App">
-   This is a test!!!!
+   <Nav />
     </div>
   );
 }
