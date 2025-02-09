@@ -10,15 +10,10 @@ const Highlights = () => {
                     <h2 className="section__title">Why Choose <span className="purple">Library?</span>
                     </h2>
                     <div className="highlight__wrapper">
-                        <Highlight icon={<FontAwesomeIcon icon="bolt" />} title="Easy and Quick" para="Get access to the book you purchase instantly."/>
-                    <div className="highlight">
-                        <div className="highlight__img">
-                            
-                        </div>
-                        <h3 className="highlight__subtitle"></h3>
-                        <p className="highlight__para">
-                        </p>
-                    </div>
+                        <Highlight icon={<FontAwesomeIcon icon="bolt" />} 
+                        title="Easy and Quick" 
+                        para="Get access to the book you purchase instantly."/>
+    
                     <div className="highlight">
                         <div className="highlight__img">
                             <FontAwesomeIcon icon="book-open" />
