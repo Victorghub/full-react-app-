@@ -29,7 +29,7 @@ const Highlights = () => {
                         </div>
                         <h3 className="highlight__subtitle">Affordable</h3>
                         <p className="highlight__para">
-                            Get your hands on popular books for as little as €10.
+                            Get your hands on popular books for as little as €10..
                         </p>
                     </div>
                     </div>
