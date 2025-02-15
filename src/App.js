@@ -4,6 +4,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Landing from './Components/Landing';
 import Highlights from './Components/Highlights';
 import Featured from './Components/Featured';
+import Discounted from './Components/Discounted';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
    <Landing />
    <Highlights />
    <Featured />
+   <Discounted />
     </div>
   );
 }
