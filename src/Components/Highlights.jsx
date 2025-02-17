@@ -25,6 +25,7 @@ const Highlights = () => {
                 </div>
             </div>
         </section>
+
     );
 }
 
