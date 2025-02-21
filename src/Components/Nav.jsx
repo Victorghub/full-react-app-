@@ -14,15 +14,15 @@ function closeMenu() {
     return (
         <nav>
             <div className="nav__container">
-                <a href="">
+                <a href="/">
                     <img src={LibraryLogo} alt="" className="logo" />
                 </a>
                 <ul className='nav__links'>
                     <li className="nav__list">
-                        <a href="" className="nav__link">Home</a>
+                        <a href="/" className="nav__link">Home</a>
                     </li>
                     <li className="nav__list">
-                        <a href="" className="nav__link">Books</a>
+                        <a href="/" className="nav__link">Books</a>
                     </li>
                     <button className="btn__menu" onClick={openMenu}>
                         <FontAwesomeIcon icon="bars" />
