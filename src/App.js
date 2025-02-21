@@ -6,8 +6,11 @@ import Books from "./pages/Books";
 import { books } from "./data";
 import BookInfo from './pages/Bookinfo';
 
+
+
 function App() {
   return (
+    
     <Router>
       <div className="App">
         <Nav />
