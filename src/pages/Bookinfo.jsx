@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Rating from "../Components/ui/Rating";
 import Price from "../Components/ui/Price";
+import Book from "../Components/ui/Book";
 
 const BookInfo = ({ books }) => {
       const { id } = useParams();
@@ -39,19 +40,8 @@ const BookInfo = ({ books }) => {
                 </div>
                 <div className="book__summary">
                   <h3 className="book__summary--title">Summary</h3>
-                  <p className="book__summary__para">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tempore, voluptatem incidunt voluptatum facilis ratione
-                    deserunt architecto sed, aut numquam ut, sit dolorum
-                    deleniti quisquam quis maiores nihil. Alias eos nobis esse
-                    repellat ipsam natus, ipsa quam numquam quae, iusto veniam.
-                  </p>
-                  <p className="book__summary__para">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tempore, voluptatem incidunt voluptatum facilis ratione
-                    deserunt architecto sed, aut numquam ut, sit dolorum
-                    deleniti quisquam quis maiores nihil. Alias eos nobis esse
-                    repellat ipsam natus, ipsa quam numquam quae, iusto veniam.
+                  <p className="book__summary--para">
+                  {book.description ? book.description : "No description available for this book."}
                   </p>
                 </div>
                 <button className="btn">
@@ -69,7 +59,13 @@ const BookInfo = ({ books }) => {
                         Recommended Books
                     </h2>
                 </div>
-
+                <div className="books">
+                {books
+                .filter(book => book.rating === 5 && +book.id !== +id )
+                .slice(0, 4)
+                .map(book => <Book book={book} key={book.id} /> )
+                }
+                </div>
             </div>
         </div>
       </main>
