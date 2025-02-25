@@ -5,6 +5,9 @@ import Rating from "../Components/ui/Rating";
 import Price from "../Components/ui/Price";
 
 const BookInfo = ({ books }) => {
+      const { id } = useParams();
+      const book = books.find(book => +book.id === +id);
+      
   return (
     <div id="books__body">
       <main id="books__main">

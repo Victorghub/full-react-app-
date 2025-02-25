@@ -1,12 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Rating from "./Rating";
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Price from "./Price";
 
-const Book = ({ books }) => {
-  const { id } = useParams();
-  const book = books.find(book => +book.id === +id);
+const Book = ({ book }) => {
+
 
   return (
     <div className="book">
