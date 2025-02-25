@@ -7,6 +7,7 @@ export const books = [
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
+    description: "I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brilliant algorithms on the spot and then write flawless code on a whiteboard. I've been through this—as a candidate and as an interviewer. Cracking the Coding Interview, 6th Edition is here to help you through this process, teaching you what you need to know and enabling you to perform at your very best. I've coached and interviewed hundreds of software engineers. The result is this book. Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions. These interview questions are real; they are not pulled out of computer science textbooks. They reflect what''s truly being asked at the top companies, so that you can be as prepared as possible."
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ export const books = [
     originalPrice: 39,
     salePrice: null,
     rating: 5,
+    description: "No matter what your goals are, this book gives you a proven way to excel every day. If you find it difficult to change your habits, it's not up to you. The problem is the system you use. You keep repeating bad habits not because you don't want to change them, but because you're using the wrong method. Elementary Habits offers a proven method that ensures that you can finally change your habits. After three years of research, James Clear has used theories from biology, psychology and neuroscience and wrote the definitive guide, making unwanted habits disappear and making it much easier for you to acquire your good habits the battle continues.",
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ export const books = [
     originalPrice: 29,
     salePrice: null,
     rating: 5,
+    description: "For David Goggins, childhood was a nightmare - poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him The Fittest (Real) Man in America.",
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ export const books = [
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
+    description: "Popular blogger Cal Newport reveals the new key to achieving success and true meaning in professional life: the ability to master distraction. Many modern knowledge workers now spend most of their brain power battling distraction and interruption, whether because of the incessant pinging of devices, noisy open-plan offices or the difficulty of deciding what deserves their attention the most. When Cal Newport coined the term deep work on his popular blog, Study Hacks, in 2012, he found the concept quickly hit a nerve. Most of us, after all, are excruciatingly familiar with shallow work instead - distractedly skimming the surface of our workload and never getting to the important part. Newport began exploring the methods and mind-set that foster a practice of distraction-free productivity at work, and now, in Deep Work, he shows how anyone can achieve this elusive state. Through revealing portraits of both historical and modern-day thinkers, academics and leaders in the fields of technology, science and culture, and their deep work habits, Newport shares an inspiring collection of tools to wring every last drop of value out of your intellectual capacity. He explains why mastering this shift in work practices is crucial for anyone who intends to stay ahead in a complex information economy and how to systematically train the mind to focus. Put simply: developing and cultivating a deep work practice is one of the best decisions we can make in an increasingly distracted world.",
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ export const books = [
     originalPrice: 32,
     salePrice: null,
     rating: 5,
+    description: "Extreme success, by definition, lies beyond the realm of normal action. If you want to achieve extreme success, you can''t operate like everybody else and settle for mediocrity. You need to remove luck and chance from your business equation, and lock in massive success. The 10X Rule shows you how! Success is your duty, obligation and responsibility, and this audio book gives you step-by-step guidance on how to achieve phenomenal success for yourself! With The 10X Rule , you''ll learn to establish the amount of effort needed to guarantee success and ensure that you can continue operating at this level throughout your life. Most people desire success and have great ideas but they come up short on the amount of action required to get their lives to the exceptional levels they deserve. Four degrees of action exist, and in order to achieve your dreams, you must learn to operate at the fourth degree of action: Massive Action. The 10X Rule will dissolve fear, increase your belief in yourself, eliminate procrastination, and provide you with an overwhelming sense of purpose. The 10X Rule compels you to separate yourself from everyone else in the market—and you do that by doing what others refuse to do. Stop thinking in terms of basic needs, and start aiming for abundance—in all areas of your life. The 10X Rule guides you toward the frame of mind that all successful people share. Aim ten times higher than you are right now—and if you come up short, you''ll still find yourself further along than if you had maintained your life''s current status quo. The 10X Rule teaches you how to:",
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ export const books = [
     originalPrice: 70,
     salePrice: 12.5,
     rating: 5,
+    description: "Whether it's selling your company's product in the boardroom or selling yourself on eating healthy, everything in life can and should be treated as a sale. And as sales expert Grant Cardone explains, knowing the principles of selling is a prerequisite for success of any kind. In Sell or Be Sold, Cardone breaks down the techniques and approaches necessary to master the art of selling in any avenue. You will learn how to handle rejection, turn around negative situations, shorten sales cycles, and guarantee yourself greatness.",
   },
   {
     id: 7,
@@ -55,6 +61,7 @@ export const books = [
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
+    description: "Rich Dad Poor Dad is the #1 personal finance book of all time. Listen today to set yourself up for a wealthy, happy future. Robert Kiyosaki''s easy tips and straight talk will… Explode the myth that you need to earn a high income to become rich. Challenge the belief that your house is an asset. Define once and for all an asset and a liability. Show parents why they can''t rely on the school system to educate kids about money. Clearly lay out what to teach kids about money for their future financial success With an incredible number of 5-star reviews, Rich Dad Poor Dad has challenged and changed the way tens of millions of people around the world think about money. With perspectives that often contradict conventional wisdom, Kiyosaki has earned a reputation for irreverence and courage. He is regarded worldwide as a passionate advocate for financial education. His easy-to-understand audiobook empowers you to make changes now - and enjoy the results for years to come. The main reason people struggle financially is because they have spent years in school but learned nothing about money. The result is that people learn to work for money… but never learn to have money work for them."
   },
   {
     id: 8,
@@ -63,6 +70,7 @@ export const books = [
     originalPrice: 38,
     salePrice: 17.95,
     rating: 4.5,
+    description: "Rich Dad's CASHFLOW Quadrant is a guide to financial freedom. It's the second book in the Rich Dad Series and reveals how some people work less, earn more, pay less in taxes, and learn to become financially free. CASHFLOW Quadrant was written for those who are ready to move beyond job security and enter the world of financial freedom. It''s for those who want to make significant changes in their lives and take control of their financial future. Robert believes that the reason most people struggle financially is because they've spent years in school but were never taught about money. Robert''s rich dad taught him that this lack of financial education is why so many people work so hard all their lives for money...instead of learning how to make money work for them. This book will change the way you think about jobs, careers, and owning your own business and inspire you to learn the rules of money that the rich use to build and grow their wealth.",
   },
   {
     id: 9,
@@ -71,6 +79,7 @@ export const books = [
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
+    description: "Amoral, cunning, ruthless, and instructive, this piercing work distills 3,000 years of the history of power into 48 well-explicated laws. This bold volume outlines the laws of power in their unvarnished essence, synthesizing the philosophies of Machiavelli, Sun Tzu, Carl von Clausewitz, and other infamous strategists. The 48 Laws of Power will fascinate any listener interested in gaining, observing, or defending against ultimate control.",
   },
   {
     id: 10,
@@ -79,6 +88,7 @@ export const books = [
     originalPrice: 40,
     salePrice: null,
     rating: 5,
+    description: "How to enrich your life and destroy doubt in five seconds. Throughout your life, you've had parents, coaches, teachers, friends, and mentors who have pushed you to be better than your excuses and bigger than your fears. What if the secret to having the confidence and courage to enrich your life and work is simply knowing how to push yourself? Using the science of habits, riveting stories, and surprising facts from some of the most famous moments in history, art, and business, Mel Robbins will explain the power of a push moment. Then, she'll give you one simple tool you can use to become your greatest self. It takes just five seconds to use this tool, and every time you do you'll be in great company. More than eight million people have watched Mel's TEDx Talk, and executives inside of the world's largest brands are using the tool to increase productivity, collaboration, and engagement.",
   },
   {
     id: 11,
@@ -87,6 +97,7 @@ export const books = [
     originalPrice: 30,
     salePrice: 20,
     rating: 5,
+    description: "Celebrating the 75 anniversary of the original landmark bestseller How to Win Friends and Influence People, comes an up-to-the-minute adaptation of Carnegie's timeless prescriptions for the digital age. Dale Carnegie's principles have endured for nearly a century. Since its original publication in 1936, his timeless classic How to Win Friends and Influence People has gone on to sell 15 million copies. Now, introducing new listeners to Carnegie's words of wisdom, comes How to Win Friends and Influence People in the Digital Age, a new guide for a new era.",
   },
   {
     id: 12,
@@ -95,5 +106,6 @@ export const books = [
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
+    description: "Around the globe, people are facing the same problem - that we are born as individuals but are forced to conform to the rules of society if we want to succeed. To see our uniqueness expressed in our achievements, we must first learn the rules - and then how to change them completely.Charles Darwin began as an underachieving schoolboy, Leonardo da Vinci as an illegitimate outcast. The secret of their eventual greatness lies in a 'rigorous apprenticeship': by paying close and careful attention, they learnt to master the 'hidden codes' which determine ultimate success or failure. Then, they rewrote the rules as a reflection of their own individuality, blasting previous patterns of achievement open from within. Told through Robert Greene's signature blend of historical anecdote and psychological insight and drawing on interviews with world leaders, Mastery builds on the strategies outlined in The 48 Laws of Power to provide a practical guide to greatness - and how to start living by your own rules.",
   },
 ];

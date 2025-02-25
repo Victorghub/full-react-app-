@@ -7,7 +7,7 @@ import Price from "../Components/ui/Price";
 const BookInfo = ({ books }) => {
       const { id } = useParams();
       const book = books.find(book => +book.id === +id);
-      
+
   return (
     <div id="books__body">
       <main id="books__main">
@@ -31,14 +31,14 @@ const BookInfo = ({ books }) => {
               </figure>
               <div className="book__selected--description">
                 <h2 className="book__selected--title">
-                  Crack the Coding Interview{" "}
+                  {book.title}
                 </h2>
-                <Rating rating="4.5" />
+                <Rating rating={book.rating} />
                 <div className="book__selected--price">
-                  <Price originalPrice={50} salePrice={20} />
+                  <Price originalPrice={book.originalPrice} salePrice={book.salePrice} />
                 </div>
                 <div className="book__summary">
-                  <div className="book__summary--title">Summary</div>
+                  <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary__para">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Tempore, voluptatem incidunt voluptatum facilis ratione
